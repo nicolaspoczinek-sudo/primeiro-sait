@@ -38,3 +38,9 @@ span{
 font-size: 20px;
 color: blue(119, 0, 225);
 }
+
+div{
+display: flex;
+flex-direction: column;
+
+}
