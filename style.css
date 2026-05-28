@@ -32,6 +32,7 @@ button{
    padding: 10px 20px; /*espaço interno*/
 margin: 10px; /*espaço externo*/
 border-radius: 10px; /*borda*/
+max-width: 100px;
 }
 
 span{
