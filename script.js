@@ -6,3 +6,18 @@ function curtir(){
     curtidas.textontent++;
 
 }
+
+
+//botao do tamanho
+const tamanho = document.getElementById("tamanho")
+tamanho.addEventListener("click", aumentarFonte)
+let fonte = 16;
+
+//funcao
+
+function aumentarFonte(){
+document.body.style.fontSize = fonte + "px";
+
+
+
+}

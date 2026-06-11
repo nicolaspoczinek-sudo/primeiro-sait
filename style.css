@@ -45,3 +45,15 @@ display: flex;
 flex-direction: column;
 
 }
+
+
+#acessível{
+
+display: fixed;
+
+left: 20px;
+
+buttom: 20px;
+
+
+}
