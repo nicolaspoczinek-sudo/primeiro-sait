@@ -1,59 +1,45 @@
 body{
-            background-color: black;
-            color: white;
-        }
+    background-color: black;
+    color: white;
+}
 
-        li{
-font-size: 30px;
-color: purple;
-
+li{
+    font-size: 18px;
+    color: red;
 }
 
 #html{
-color: red;
-
-}
-/* 2 li como azul claro
-   3 li como amarelo
-*/
-#CSS{
-color:blue;
-
+    color: rgb(255, 128, 0);
 }
 
-#javascript{
-color: yellow;
+#css{
+    color: rgb(103, 171, 255);
+}
 
-
+#js{
+    color: yellow;
 }
 
 button{
-   background-color:red;
-   padding: 10px 20px; /*espaço interno*/
-margin: 10px; /*espaço externo*/
-border-radius: 10px; /*borda*/
-max-width: 100px;
+    background-color: pink;
+    padding: 10px 20px; /* ESPAÇO INTERNO */
+    margin: 10px; /* ESPAÇO EXTERNO */
+    border-radius: 10px; /* BORDA */
+    max-width: 100px;
 }
 
 span{
-font-size: 20px;
-color: blue(119, 0, 225);
+    font-size: 20px;
+    color: rgb(119, 0, 255);
 }
 
 div{
-display: flex;
-flex-direction: column;
-
+    display: flex;
+    flex-direction: column;
 }
 
-
-#acessível{
-
-display: fixed;
-
-left: 20px;
-
-buttom: 20px;
-
-
+#acessivel{
+    display: fixed;
+    left: 20px;
+    bottom: 20px;
 }
