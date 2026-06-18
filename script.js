@@ -19,4 +19,20 @@ function aumentarFonte(){
 }
 
 // BOTÃO DO CONTRASTE
+const contraste = document.getElementById("contraste")
+contraste.addEventListener("click", alternarContraste)
+
+let modoContraste = false
+
 // FUNÇÃO DO CONTRASTE
+function alternarContraste() {
+    if (modoContraste === false) {
+        document.body.style.backgroundColor = "black"
+        document.body.style.color = "yellow"
+        modoContraste = true
+    } else {
+        document.body.style.backgroundColor = "white"
+        document.body.style.color = "black"
+        modoContraste = false
+    }
+}
