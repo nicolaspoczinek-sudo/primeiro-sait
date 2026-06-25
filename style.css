@@ -49,3 +49,7 @@ div{
     right: 20px;
     bottom: 20px;
 }
+
+hr{
+    width: 50%;
+}
